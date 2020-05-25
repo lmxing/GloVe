@@ -461,7 +461,10 @@ int find_arg(char *str, int argc, char **argv) {
     }
     return -1;
 }
-
+/*
+ * 计算单词 - 单词共现统计量的工具
+ *
+ */
 int main(int argc, char **argv) {
     int i;
     real rlimit, n = 1e5;

@@ -236,7 +236,12 @@ int find_arg(char *str, int argc, char **argv) {
     }
     return -1;
 }
-
+/*
+ * 提取unigram计数的简单工具 
+ * 输入：filename 、词频的最小值、单词的长度的最大值 
+ * 输出：每行两个列： word， word 的频数
+ * 
+ */
 int main(int argc, char **argv) {
     int i;
     if (argc == 1) {
